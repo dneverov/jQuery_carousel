@@ -4,6 +4,7 @@
   /*Prevent images from wrapping*/
   white-space: nowrap;
   overflow: hidden;
+  position: relative;
 }
 
 #slide1 {
@@ -32,4 +33,36 @@
   background-position: center;
   background-size: cover;
   display: inline-block;
+}
+
+.arrow {
+  width: 5%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+#right-arrow {
+  right: 20px;
+}
+
+#left-arrow {
+  left: 20px;
+}
+
+
+
+/* X-Response */
+
+@media (max-device-width: 1024px) {
+  .arrow {
+    width: 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .arrow {
+    width: 10%;
+  }
 }
