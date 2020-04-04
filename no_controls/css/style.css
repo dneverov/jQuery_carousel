@@ -1,0 +1,35 @@
+#carousel {
+  width: 100vw;
+  height: 100vh;
+  /*Prevent images from wrapping*/
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#slide1 {
+  background-image: url('../img/image1.jpg');
+}
+
+#slide2 {
+  background-image: url('../img/image2.jpg');
+}
+
+#slide3 {
+  background-image: url('../img/image3.jpg');
+}
+
+#slide4 {
+  background-image: url('../img/image4.jpg');
+}
+
+#slide5 {
+  background-image: url('../img/image5.jpg');
+}
+
+.slide-image {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+}
